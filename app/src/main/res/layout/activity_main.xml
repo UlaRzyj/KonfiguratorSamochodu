@@ -54,7 +54,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Sedan"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/white"
+                    android:checked="true"/>
                 <RadioButton
                     android:id="@+id/suv"
                     android:layout_width="wrap_content"
@@ -107,6 +108,46 @@
                 android:layout_height="wrap_content"
                 android:text="Skórzane Podgrzewane Fotele"
                 android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/przyciskPodsumowanie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pokaż podsumowanie"
+                android:layout_gravity="center"
+                android:backgroundTint="#409D9D9D"
+                android:textColor="@color/white"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/white"
+                android:layout_margin="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="Cappuccino"
+                    android:layout_gravity="start"
+                    android:src="@drawable/sedan"
+                    android:layout_margin="10dp" />
+
+                <TextView
+                    android:id="@+id/zamowienie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="15dp"
+                    android:text="Podsumowanie:"
+                    android:textColor="@color/white"
+                    android:layout_gravity="end"/>
+
+            </LinearLayout>
 
         </LinearLayout>
 
