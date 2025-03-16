@@ -40,7 +40,8 @@
                 android:text="Wybierz model"
                 android:textColor="@color/white"
                 android:textSize="15dp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
 
             <RadioGroup
                 android:id="@+id/carModels"
@@ -69,8 +70,48 @@
 
             </RadioGroup>
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/white"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Wybierz dodatki"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <CheckBox
+                android:id="@+id/klimatyzacja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Klimatyzacja"
+                android:textColor="@color/white"/>
+
+            <CheckBox
+                android:id="@+id/skorzaneSiedzenia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skórzane Siedzenia"
+                android:textColor="@color/white"/>
+
+            <CheckBox
+                android:id="@+id/podgrzewaneFotele"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skórzane Podgrzewane Fotele"
+                android:textColor="@color/white"/>
+
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
+
+
 
 </LinearLayout>
