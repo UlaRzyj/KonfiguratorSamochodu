@@ -54,7 +54,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Sedan"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/white"
+                    android:checked="true"/>
                 <RadioButton
                     android:id="@+id/suv"
                     android:layout_width="wrap_content"
@@ -105,7 +106,7 @@
                 android:id="@+id/podgrzewaneFotele"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Skórzane Podgrzewane Fotele"
+                android:text="Podgrzewane Fotele"
                 android:textColor="@color/white"/>
 
             <Button
@@ -125,6 +126,7 @@
                 />
 
             <LinearLayout
+                android:gravity="center_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
@@ -138,7 +140,7 @@
                     android:layout_margin="10dp" />
 
                 <TextView
-                    android:id="@+id/zamowienie"
+                    android:id="@+id/podsumowanie"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
